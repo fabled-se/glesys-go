@@ -88,6 +88,7 @@ type CreateServerParams struct {
 	Storage      int    `json:"disksize"`
 	Template     string `json:"templatename"`
 	Users        []User `json:"users,omitempty"`
+	CloudConfig string `json:"cloudconfig,omitempty"`
 }
 
 // EditServerParams is used when editing an existing server
